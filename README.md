@@ -1,85 +1,61 @@
 # 👋 Hi, I'm Saeid Karbaschian
 
-🚀 **Senior Backend & ERP Engineer** | 🏗️ **Scalable Architecture** | 🔄 **Odoo Specialist**
+**Full Stack Developer** — Python · Django · DRF · React · TypeScript · Odoo ERP
 
-I am a software engineer with **over 6 years of experience** specializing in building scalable API architectures, optimizing PostgreSQL backends, and leading complex ERP migrations. I bridge the gap between complex business logic and high-performance digital solutions using **Python, Django, and React**.
+Full Stack Developer based in the Greater Toronto Area with 4+ years of experience building backend services with **Python/Django**, REST APIs with **Django REST Framework**, and modern frontends with **React + TypeScript** — plus hands-on experience customizing **Odoo ERP (v14–17)** across HR/payroll, inventory, approvals, sales, and accounting.
 
----
+I care about production-grade patterns: atomic transactions, concurrency safety, background jobs, testing (pytest), linting (Ruff), Docker, and CI/CD. Currently deepening my **AWS** skills (ECS Fargate, RDS, ECR).
 
-## 🧩 About Me
-
-* 🇨🇦 **Authorized to work in Canada** and currently based in the GTA.
-
-
-* 🛠️ **Backend Expert:** Specialized in RESTful API design, ORM refactoring, and reducing database latency by **30%**.
-
-
-* 🔄 **ERP Architect:** Expert in **Odoo (v8 to v14)** migrations, custom module development, and automating retail/accounting workflows.
-
-
-* 🧪 **Quality Driven:** Focused on **TDD** and **CI/CD automation** to maintain 99.9% production stability.
-
-
+🇨🇦 Authorized to work in Canada · Open to Full Stack, Python/Django, Backend, and Odoo Developer roles.
 
 ---
 
-## 🛠️ Core Skills
+## 🛠️ Tech Stack
 
 | Category | Technologies |
 | --- | --- |
-| **Languages** | Python, TypeScript, JavaScript, SQL 
-
- |
-| **Frameworks** | Django, Django REST Framework (DRF), React, Odoo ORM 
-
- |
-| **Infrastructure** | PostgreSQL, Docker, Redis, GitHub Actions (CI/CD) 
-
- |
-| **Methodologies** | TDD, Agile/Scrum, REST API Design, ETL/Data Migration 
-
- |
+| **Languages** | Python, TypeScript, JavaScript, SQL, HTML, CSS, XML |
+| **Backend** | Django, Django REST Framework, Celery, JWT, Odoo (ORM, QWeb) |
+| **Frontend** | React, Vite, React Router, Recharts |
+| **Data & Cache** | PostgreSQL, Redis |
+| **DevOps** | Docker, Docker Compose, GitHub Actions (CI/CD), Git, Linux, AWS (learning) |
+| **Quality** | pytest, Ruff, pre-commit, Swagger/OpenAPI |
 
 ---
 
-## 🧪 Experience Highlights
+## 🚀 Featured Project
 
-* 
-**Full-Stack Development (Ati Parvaz Agency):** Rebuilt legacy booking systems using **Django + React**, implementing real-time flight search APIs and TDD workflows.
+### [StockFlow](https://github.com/msaeiid/stockflow) — Inventory & Order Management System
+Full-stack app that helps small businesses manage products, warehouses, suppliers, and customer orders. Built end-to-end and deployed to production (backend on Render, frontend on Vercel).
 
+- **Atomic multi-item stock deduction** — all items deduct inside one DB transaction; any shortage rolls back the whole order (no partial orders, no negative stock).
+- **Concurrency-safe** using `select_for_update()` row locking.
+- **Async low-stock alerts** as Celery tasks dispatched via `transaction.on_commit`, with graceful fallback to in-memory cache when Redis is unavailable.
+- **JWT auth** with role-based access (admin / manager / staff).
+- **CI pipeline** on GitHub Actions: pytest against a PostgreSQL service container + Ruff linting.
 
-* 
-**Backend Engineering (Sarmad Nikan):** Optimized high-traffic LMS applications and automated deployment pipelines, significantly improving system throughput.
+**Stack:** Python, Django, DRF, PostgreSQL, Celery, Redis, React, TypeScript, Vite, Docker, GitHub Actions
+🔗 **Live demo:** demo / demo12345
 
+---
 
-* 
-**Odoo Specialist (AzinDid Faraz / Aria Beniz):** Led full-version migrations (v8 to v14) and customized Sales/POS modules, saving **10+ manual hours per week** through automation.
+## 💼 Experience Highlights
 
-
-* 
-**System Reliability (Fanaravarn Pishkhan):** Provided Tier 2 support for national-scale G2B platforms, resolving 15+ high-priority production tickets weekly.
-
-
+- **Freelance Software Engineer** (Nov 2022 – Present) — End-to-end web and ERP solutions for SMB clients: an optic product pricing matrix integrated into Odoo 17 sale orders (cut order-entry clicks ~25–30%), receivable/payable smart buttons for a finance team, HR/payroll and approvals-to-inventory modules, and a full-stack Django + React client app.
+- **Python Developer, Aria Beniz Group** (Feb 2022 – Oct 2022) — Custom Odoo 14 modules for sales/inventory/HR; supported an Odoo v8 → v14 migration.
+- **IT Support Specialist / Python Developer, Fanavaran Etelaat Pishkhan** (May 2018 – Nov 2021) — Supported national digital-signature and e-Prescription platforms; automated operations with Python.
 
 ---
 
 ## 🎓 Education
 
-* **Bachelor of Computer Software Engineering** | Shamsipour Technical and Vocational College 
-
-
-* **Associate of Computer Systems Networking** | University of Applied Science and Technology 
-
-
+- **Bachelor's Degree, Computer Software Engineering** — Shamsipour Technical and Vocational College
+- **Associate's Degree, Computer Systems Networking and Telecommunications** — University of Applied Science and Technology
 
 ---
 
 ## 📫 Let's Connect
 
-* 📍 **Location:** Toronto, ON 
-
-
-* 📧 **Email:** [mskarbaschian@gmail.com](mailto:mskarbaschian@gmail.com) 
-
-
-* 🔗 **LinkedIn:** [linkedin.com/in/mskarbaschian/](https://www.linkedin.com/in/mskarbaschian/)
+- 📍 **Location:** Greater Toronto Area, ON, Canada
+- 📧 **Email:** [mskarbaschian@gmail.com](mailto:mskarbaschian@gmail.com)
+- 🔗 **LinkedIn:** [linkedin.com/in/skarbaschian](https://www.linkedin.com/in/skarbaschian/)
